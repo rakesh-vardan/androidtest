@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="coteafs-appium Test Suite" preserve-order="true">
+    <test name="Android Test">
+        <parameter name="server" value="android" />
+        <parameter name="device" value="test_rakesh" />
+        <classes>
+            <class name="com.mobile.automation.VodQATest">
+                <methods>
+                    <include name="testLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
