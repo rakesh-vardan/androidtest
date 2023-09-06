@@ -28,7 +28,7 @@
     <dependency>
       <groupId>com.github.wasiqb.coteafs</groupId>
       <artifactId>appium</artifactId>
-      <version>3.0.0</version>
+      <version>3.5.1</version>
     </dependency>
   </dependencies>
 
